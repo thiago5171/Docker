@@ -115,7 +115,7 @@ Se tudo ocorrer bem ele ira retornar o ID do container  e sua aplicação  estar
 
 
 
-## Veresionamento
+## Versionamento
 
 
 1) Inicialmente faca login no seu docker hub:
