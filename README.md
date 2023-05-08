@@ -112,3 +112,34 @@ Se não houve nenhuma mensagem de erro, então funcionou.
    
 Se tudo ocorrer bem ele ira retornar o ID do container  e sua aplicação  estará em execução no seu localhost:3000, assim como na imagem abaixo
 ![img_1.png](img_1.png)
+
+
+
+## Veresionamento
+
+
+1) Inicialmente faca login no seu docker hub:
+
+   ```
+   docker login
+   ```
+   
+2) Faça suas mudanças na sua aplicação.
+
+Obs: lembre-se de ter criado o repositorio no docker hub.
+
+3) Agora publique sua imagem:
+
+   ```
+   docker push tgazaroli/getting-started
+   ```
+
+4) E então comite suas mudanças:
+   ```
+   docker commit <container-id> tgazaroli/getting-started
+   ```
+   
+   
+   
+
+
